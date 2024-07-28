@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "poetry-demo"
+version = "0.1.0"
+description = ""
+authors = ["lcao1720 <lcao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+pandas = "*"
+numpy = "*"
+jupyter = "*"
+jupyterlab = "*"
+fastapi = "*"
+matplotlib = "*"
+polars = "*"
+pyarrow = "*"
+seaborn = "*"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+black = "^24.4.2"
+pre-commit = "^3.7.1"
+setuptools = "^71.1.0"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
